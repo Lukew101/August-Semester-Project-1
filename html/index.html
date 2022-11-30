@@ -13,7 +13,8 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
+        <a name="top"></a>
+        <a href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
         <div class="nav-bars-menu">
             <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
@@ -25,14 +26,18 @@
                     <li><a href="/html/events.html">Events</a></li>
                     <li><a href="/html/exhibition-spaces.html">Exhibitions</a></li>
                     <li><a href="/html/explore.html">Explore</a></li>
-                     <li><a href="/html/get-involved.html">Get Involved</a></li>
+                    <li><a href="/html/get-involved.html">Get Involved</a></li>
                     <li class="donate-header"><a href="/html/donation.html">Donate</a></li>
                 </ul>
             </nav>
         </div>
         <div class="search-bar">
-            <label for="search-checkbox"><i class="fa fa-magnifying-glass"></i></label>
+            <input type="text" class="search-input">
             <input type="checkbox" id="search-checkbox" name="search-checkbox">
+            <label for="search-checkbox">
+                <span class="open"><i class="fa fa-magnifying-glass"></i></span>
+                <span class="close"><i class="fa-solid fa-x"></i></span>
+            </label>
         </div>
     </header>
     <main>
@@ -45,6 +50,11 @@
             <div class="top-main-img">
                 <img src="/images/billetto-editorial-334686.jpg" alt="Boy painting on a canvas whilst using a virtual reality headset">
             </div>
+            <div class="custom-shape-divider-bottom-1669815940">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
         </section>
         <div class="opening-time-home">
             <i class="fa-regular fa-clock"></i>
@@ -53,9 +63,18 @@
         </div>
         <h3>Special Events</h3>
         <div>
-            <a href="/html/event-spec-pages/visiting-professor.html"><img src="/images/yaroslav-muzychenko-uDa9QHn7SrA-unsplash.jpg" alt="Planes stored on the ground and hanging from the ceiling of a plane hanger"><h4>Visitng professor of aeronautics</h4></a>
-            <a href="/html/event-spec-pages/night-in-museum.html"><img src="/images/roberto-nickson-396152.jpg" alt="Display of a mammoth towards the back left of a room surrounded by stone walls"><h4>Night in the Museum</h4></a>
-            <a href="/html/event-spec-pages/energetica.html"><img src="/images/william-bout-264826.jpg" alt="Mix of poles and wires crossing one another in the sky"><h4>Energetica Exhibiton on Loan</h4></a>
+            <a href="/html/event-spec-pages/visiting-professor.html">
+                <img src="/images/yaroslav-muzychenko-uDa9QHn7SrA-unsplash.jpg" alt="Planes stored on the ground and hanging from the ceiling of a plane hanger">
+                <h4>Visitng professor of aeronautics</h4>
+            </a>
+            <a href="/html/event-spec-pages/night-in-museum.html">
+                <img src="/images/roberto-nickson-396152.jpg" alt="Display of a mammoth towards the back left of a room surrounded by stone walls">
+                <h4>Night in the Museum</h4>
+            </a>
+            <a href="/html/event-spec-pages/energetica.html">
+                <img src="/images/william-bout-264826.jpg" alt="Mix of poles and wires crossing one another in the sky">
+                <h4>Energetica Exhibiton on Loan</h4>
+            </a>
         </div>
         <div>
             <div>
@@ -69,9 +88,18 @@
         </div>
         <h3>Explore</h3>
         <div>
-            <a href="/html/explore-spec-pages/explore-kids.html"><img src="/images/samuel-zeller-158996.jpg" alt="Child wearing a virtual reality headset and stairing at the ceiling"><h4>For kids</h4></a>
-            <a href="/html/explore-spec-pages/explore-teachers.html"><img src="/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="Group of teachers sitting together on a stone step with arms over each other"><h4>For teachers</h4></a>
-            <a href="/html/explore-spec-pages/explore-researchers.html"><img src="/images/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg" alt="A lady in a science lab looking at a dark test tube"><h4>For researchers</h4></a>
+            <a href="/html/explore-spec-pages/explore-kids.html">
+                <img src="/images/samuel-zeller-158996.jpg" alt="Child wearing a virtual reality headset and stairing at the ceiling">
+                <h4>For kids</h4>
+            </a>
+            <a href="/html/explore-spec-pages/explore-teachers.html">
+                <img src="/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="Group of teachers sitting together on a stone step with arms over each other">
+                <h4>For teachers</h4>
+            </a>
+            <a href="/html/explore-spec-pages/explore-researchers.html">
+                <img src="/images/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg" alt="A lady in a science lab looking at a dark test tube">
+                <h4>For researchers</h4>
+            </a>
         </div>
     </main>
     <footer>
@@ -83,7 +111,7 @@
         </div>
         <div>
             <h4>Opening Hours</h4>
-            <p><span>Mon:</span> Closed<span class="line-break"><span class="bold-footer">Tue to Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-footer">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-footer">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-footer">Sun:</span> 9:00 - 13:00</span></p>
+            <p><span>Mon:</span> Closed<span class="line-break"><span class="bold-span">Tue to Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-span">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-span">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-span">Sun:</span> 9:00 - 13:00</span></p>
         </div>
         <div>
             <h4>Social Media</h4>
@@ -106,7 +134,7 @@
             </ul>
         </div>
         <div>
-            <p>Back to Top <i class="fa-solid fa-arrow-up"></i></p>
+            <a href="#top"><p>Back to Top <i class="fa-solid fa-arrow-up"></i></p></a>
         </div>
     </footer>
 </body>
