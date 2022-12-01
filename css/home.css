@@ -1,0 +1,7 @@
+.exhib-space-img img,
+.events-list img,
+.explore-list img {
+    max-width: 320px;
+}
+
+

@@ -1,21 +1,115 @@
-.custom-shape-divider-bottom-1669815940 {
+@import "../CSS/Imports/variables.css";
+
+/* Background */
+.wave-background {
     position: absolute;
-    bottom: 100px;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
+    z-index: -100;
 }
 
-.custom-shape-divider-bottom-1669815940 svg {
+.wave-background svg {
     position: relative;
     display: block;
-    width: calc(138% + 1.3px);
-    height: 300px;
+    width: calc(190% + 1.3px);
+    height: 250px;
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1669815940 .shape-fill {
+.wave-background .shape-fill {
     fill: #3F3082;
+}
+
+/* Global */
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.top-main-img img {
+    max-width: 330px;
+}
+
+.events-list img {
+    max-width: 330px;
+    height: 210px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line-break {
+    display: block;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    display: flex;
+    position: relative;
+    top: 20px;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+header > * {
+    margin: 0 10px;
+}
+
+header nav {
+    justify-content: center;
+    position: absolute;
+    left: -250vh;
+    width: 100%;
+    background-color: white;
+}
+
+header li {
+    list-style: none;
+}
+
+header img {
+    max-width: 160px;
+    max-height: 60px;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+    top: 60px;
+}
+
+#search-checkbox, .close {
+    display: none;
+}
+
+.search-input {
+    position: absolute;
+    right: -100px;
+}
+
+#search-checkbox:checked ~ .search-input {
+    right: 100px;
+}
+
+/* Footer */
+footer img {
+    width: 120px;
 }

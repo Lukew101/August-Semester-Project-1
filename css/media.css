@@ -1,0 +1,6 @@
+@media (min-width: 800px) {
+    .wave-background svg {
+        width: calc(186% + 1.3px);
+        height: 350px;
+    }
+}
