@@ -59,17 +59,39 @@ header {
     top: 20px;
     height: 100px;
     width: 100%;
-    justify-content: center;
     z-index: 1000;
-    overflow: hidden;
 }
 
 header > * {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
+header i {
+    font-size: 16px;
+    background-color: #3F3082;
+    border-radius: 500px;
+    padding: 13px;
+    color: white;
+    width: 15px;
+    text-align: center;
+}
+
+.search-bars {
+    display: flex;
+}
+
+.search-bar {
+    position: absolute;
+    right: 20px;
+}
+
+.search-bar span {
+    z-index: 1501;
+}
+
+
+/* Header nav */
 header nav {
-    justify-content: center;
     position: absolute;
     left: -250vh;
     width: 100%;
@@ -96,17 +118,33 @@ header img {
     top: 60px;
 }
 
+/* Search bar */
 #search-checkbox, .close {
     display: none;
 }
 
 .search-input {
+    display: none;
     position: absolute;
-    right: -100px;
+    top: 0;
+    height: 40px;
+    z-index: 1100;
+    width: 230px;
 }
 
 #search-checkbox:checked ~ .search-input {
-    right: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    transition :right 0.3s ease-in-out;
+}
+
+#search-checkbox:checked ~ label .open{
+    display: none;
+}
+
+#search-checkbox:checked ~ label .close{
+    display: inline-block;
 }
 
 /* Footer */
