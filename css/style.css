@@ -1,29 +1,15 @@
 @import "../CSS/Imports/variables.css";
-
-/* Background */
-.wave-background {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: -100;
-}
-
-.wave-background svg {
-    position: relative;
-    display: block;
-    width: calc(190% + 1.3px);
-    height: 250px;
-    transform: rotateY(180deg);
-}
-
-.wave-background .shape-fill {
-    fill: #3F3082;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
 
 /* Global */
+h1,h2,h3,h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -52,6 +38,24 @@ a {
     font-weight: bold;
 }
 
+header li,
+footer li {
+    list-style: none;
+}
+
+.cta-main {
+    background: #3FA752;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.top-main-txt a {
+    margin: 50px 0;
+}
+
 /* Header */
 header {
     display: flex;
@@ -60,10 +64,6 @@ header {
     height: 100px;
     width: 100%;
     z-index: 1000;
-}
-
-header > * {
-    margin: 0 20px;
 }
 
 header i {
@@ -76,19 +76,22 @@ header i {
     text-align: center;
 }
 
+header a {
+    flex-basis: 100%;
+    margin-left: 15px;
+}
+
 .search-bars {
     display: flex;
 }
 
-.search-bar {
-    position: absolute;
-    right: 20px;
+.search-bars > * {
+    margin-right: 15px;
 }
 
 .search-bar span {
     z-index: 1501;
 }
-
 
 /* Header nav */
 header nav {
@@ -98,8 +101,8 @@ header nav {
     background-color: white;
 }
 
-header li {
-    list-style: none;
+li {
+    color:  black;
 }
 
 header img {
@@ -123,20 +126,27 @@ header img {
     display: none;
 }
 
-.search-input {
+.search-bar-page {
+    width: 100%;
+    height: 60px;
+    top: 0px;
     display: none;
-    position: absolute;
-    top: 0;
-    height: 40px;
-    z-index: 1100;
-    width: 230px;
+    background-color: white;
 }
 
-#search-checkbox:checked ~ .search-input {
+.search-input {
+    width: 93%;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 200px;
+    height: 38px;
+    right: 0px;
+}
+
+#search-checkbox:checked ~ .search-bar-page {
     display: inline-block;
     position: absolute;
-    right: 50px;
-    transition :right 0.3s ease-in-out;
+    right: 15px;
 }
 
 #search-checkbox:checked ~ label .open{
@@ -145,9 +155,58 @@ header img {
 
 #search-checkbox:checked ~ label .close{
     display: inline-block;
+    position: relative;
+}
+
+/* Background */
+.wave-background {
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -100;
+}
+
+.wave-background svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 250px;
+    transform: rotateY(180deg);
+}
+
+.wave-background .shape-fill {
+    fill: #3F3082;
 }
 
 /* Footer */
+footer {
+    background: #312859;
+    display: grid;
+    color: white;
+}
+
+footer .main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
 footer img {
     width: 120px;
+}
+
+footer .social-med-icons i {
+    font-size: 30px;
+}
+
+footer .footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
 }
