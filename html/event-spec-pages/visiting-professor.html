@@ -13,11 +13,17 @@
 </head>
 <body>
     <header>
-        <a name="top" href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
-        <div class="nav-bars-menu">
-            <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
-            <nav class="header-nav">
+        <div class="logo-div">
+            <a name="top" href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
+        </div>
+        <div class="search-bars">
+            <div class="nav-bars-menu">
+                <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
+                <label for="menu-checkbox">
+                    <span class="open-menu"><i class="fas fa-bars"></i></span>
+                    <span class="close-menu"><i class="fa-solid fa-arrow-left-long"></i></span>
+                </label>
+                <nav class="header-nav">
                 <ul>
                     <li class="home-remove"><a href="/html/index.html" class="active">Home</a></li>
                     <li><a href="/html/about.html">About</a></li>
@@ -31,119 +37,134 @@
             </nav>
         </div>
         <div class="search-bar">
-            <input type="text" class="search-input">
             <input type="checkbox" id="search-checkbox" name="search-checkbox">
             <label for="search-checkbox">
-                <span class="open"><i class="fa fa-magnifying-glass"></i></span>
-                <span class="close"><i class="fa-solid fa-x"></i></span>
+                <span class="open-search"><i class="fa fa-magnifying-glass"></i></span>
+                <span class="close-search"><i class="fa-solid fa-x"></i></span>
             </label>
+            <div class="search-bar-page">
+                <input type="text" class="search-input" placeholder="What can we find for you?">
+            </div>
         </div>
     </header>
     <main>
-        <div class="breadcrumb">
-            <p><a href="/index.html" class="bread-home">Home</a>&nbsp;/&nbsp;<a href="/html/events.html">Special Events</a>&nbsp;/&nbsp;<span class="current-page">Visiting Professor of Aeronautics</span></p>
-        </div>
-        <section class="top-main">
-            <div class="top-main-txt">
-                <h1>Visiting Professor of Aeronautics</h1>
-                <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                <p><span class="topic-bubble">Science</span><span class="topic-bubble">Space</span><span class="topic-bubble">History</span></p>
+        <div class="main-div">
+            <div class="breadcrumb">
+                <p><a href="/index.html" class="bread-home">Home</a>&nbsp;/&nbsp;<a href="/html/events.html">Special Events</a>&nbsp;/&nbsp;<span class="current-page">Visiting Professor of Aeronautics</span></p>
             </div>
-            <div class="top-main-img">
-                <img src="/images/yaroslav-muzychenko-uDa9QHn7SrA-unsplash.jpg" alt="Planes stored on the ground and hanging from the ceiling of a plane hanger">
+            <section class="top-main">
+                <div class="top-main-txt">
+                    <h1>Visiting Professor of Aeronautics</h1>
+                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                    <p><span class="topic-bubble">Science</span><span class="topic-bubble">Space</span><span class="topic-bubble">History</span></p>
+                </div>
+                <div class="top-main-img">
+                    <img src="/images/yaroslav-muzychenko-uDa9QHn7SrA-unsplash.jpg" alt="Planes stored on the ground and hanging from the ceiling of a plane hanger">
+                </div>
+            </section>
+            <div class="flex-box">
+                <div>
+                    <p>When:</p>
+                    <p>Tuesday to Friday<span class="line-break">(until 16/12)</span></p>
+                </div>
+                <div>
+                    <p>Time:</p>
+                    <p>11:00</p>
+                </div>
+                <div>
+                    <p>Length:</p>
+                    <p>1 hour</p>
+                </div>
+                <div>
+                    <p>Location</p>
+                    <p>Theatre 3</p>
+                </div>
+                <div>
+                    <p>Booking:</p>
+                    <p>No booking required</p>
+                </div>
+                <div>
+                    <a class="cta-main" href="/html/visit.html">Plan your trip</a>
+                </div>
             </div>
-        </section>
-        <div class="flex-box">
-            <div>
-                <p>When:</p>
-                <p>Tuesday to Friday<span class="line-break">(until 16/12)</span></p>
+            <div class="flex-box">
+                <div>
+                    <h2>More About</h2>
+                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                </div>
+                <div>
+                    <h2>Helpful Information</h2>
+                    <p class="bold-span">Finding the Theatre</p>
+                    <ul>
+                        <li>2nd floor to the left when going up the stairs and to the right when using the elevator.</li>
+                        <li>Look at the maps on the walls of each room OR ask for assistance if unable to find.</li>
+                    </ul>
+                    <p class="bold-span">Other Information</p>
+                    <ul>
+                        <li>For all ages from 7+.</li>
+                        <li>Space for wheelchair access at the front of the theatre.</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p>Time:</p>
-                <p>11:00</p>
-            </div>
-            <div>
-                <p>Length:</p>
-                <p>1 hour</p>
-            </div>
-            <div>
-                <p>Location</p>
-                <p>Theatre 3</p>
-            </div>
-            <div>
-                <p>Booking:</p>
-                <p>No booking required</p>
-            </div>
-            <div>
-                <a class="cta-main" href="/html/visit.html">Plan your trip</a>
-            </div>
-        </div>
-        <div class="flex-box">
-            <div>
-                <h2>More About</h2>
-                <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-            </div>
-            <div>
-                <h2>Helpful Information</h2>
-                <p class="bold-span">Finding the Theatre</p>
-                <ul>
-                    <li>2nd floor to the left when going up the stairs and to the right when using the elevator.</li>
-                    <li>Look at the maps on the walls of each room OR ask for assistance if unable to find.</li>
-                </ul>
-                <p class="bold-span">Other Information</p>
-                <ul>
-                    <li>For all ages from 7+.</li>
-                    <li>Space for wheelchair access at the front of the theatre.</li>
-                </ul>
-            </div>
-        </div>
-        <div class="flex-box">
-            <div>
-                <a href="/html/event-spec-pages/night-in-museum.html">
-                    <img src="/images/roberto-nickson-396152.jpg" alt="Display of a mammoth towards the back left of a room surrounded by stone walls">
-                    <h3>Night in the Museum</h3>
-                </a>
-            </div>
-            <div>
-                <a href="/html/event-spec-pages/energetica.html">
-                    <img src="/images/william-bout-264826.jpg" alt="Mix of poles and wires crossing one another in the sky">
-                    <h3>Energetica Exhibiton on Loan</h3>
-                </a>
+            <div class="flex-box">
+                <div>
+                    <a href="/html/event-spec-pages/night-in-museum.html">
+                        <img src="/images/roberto-nickson-396152.jpg" alt="Display of a mammoth towards the back left of a room surrounded by stone walls">
+                        <h3>Night in the Museum</h3>
+                    </a>
+                </div>
+                <div>
+                    <a href="/html/event-spec-pages/energetica.html">
+                        <img src="/images/william-bout-264826.jpg" alt="Mix of poles and wires crossing one another in the sky">
+                        <h3>Energetica Exhibiton on Loan</h3>
+                    </a>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <div>
-            <h4>Location</h4>
-            <p>Kolderups vei 14, Disen, <span class="line-break">0587 Oslo, Norway.</span></p>
-            <a href="https://www.google.no/maps/place/Kolderups+vei+14,+0587+Oslo/@59.9416565,10.79321,15z/data=!4m5!3m4!1s0x46416e301a2b6099:0xebc75bda3a1d7912!8m2!3d59.9426012!4d10.7946088"><img src="/images/Map.JPG" alt="Google maps showing the location of the Community Science Museum"></a>
+        <div class="large-scree-foot-flex">
+            <div class="main-footer">
+                <div>
+                    <p class="footer-headers bold-span">Location</p>
+                    <p>Kolderups vei 14, Disen, <span class="line-break">0587 Oslo, Norway.</span> 
+                    </p>
+                    <a href="https://www.google.no/maps/place/Kolderups+vei+14,+0587+Oslo/@59.9416565,10.79321,15z/data=!4m5!3m4!1s0x46416e301a2b6099:0xebc75bda3a1d7912!8m2!3d59.9426012!4d10.7946088"><img src="/images/Map.JPG" alt="Google maps showing the location of the Community Science Museum"></a>
+                </div>
+                <div>
+                    <p class="footer-headers bold-span">Opening Hours</p>
+                    <p><span class="bold-span">Mon:</span> Closed<span class="line-break"><span class="bold-span">Tue - Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-span">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-span">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-span">Sun:</span> 9:00 - 13:00</span></p>
+                </div>
+                <div class="social-med-icons">
+                    <p class="footer-headers bold-span">Social Media</p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="contact-footer">
+                    <p class="footer-headers bold-span">Contact us</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i> +47 923 65 217 <span class="line-break"><i class="fa-regular fa-envelope"></i> CSM@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="footer-nav bold-span">
+                <div>
+                    <p><a href="/html/index.html">Home</a></p>
+                    <p><a href="/html/about.html">About</a></p>
+                    <p><a href="/html/visit.html">Visit</a></p>
+                </div>
+                <div>
+                    <p><a href="/html/events.html">Events</a></p>
+                    <p><a href="/html/exhibition-spaces.html">Exhibitions</a></p>
+                    <p><a href="/html/explore.html">Explore</a></p>
+                </div>
+                <div>
+                    <p><a href="/html/get-involved.html">Get Involved</a></p>
+                    <p><a href="/html/contact.html">Contact Us</a></p>
+                </div>
+            </div>
         </div>
-        <div>
-            <h4>Opening Hours</h4>
-            <p><span class="bold-span">Mon:</span> Closed<span class="line-break"><span class="bold-span">Tue to Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-span">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-span">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-span">Sun:</span> 9:00 - 13:00</span></p>
-        </div>
-        <div>
-            <h4>Social Media</h4>
-        </div>
-        <div>
-            <h4>Contact us</h4>
-            <i class="fa-solid fa-mobile-screen"></i><p>+47 923 65 217</p>
-            <i class="fa-regular fa-envelope"></i><p>CSM@gmail.com</p>
-        </div>
-        <div>
-            <ul>
-                <li class="home-remove"><a href="/html/index.html">Home</a></li>
-                <li><a href="/html/about.html">About</a></li>
-                <li><a href="/html/visit.html">Visit</a></li>
-                <li><a href="/html/events.html">Events</a></li>
-                <li><a href="/html/exhibition-spaces.html">Exhibitions</a></li>
-                <li><a href="/html/explore.html">Explore</a></li>
-                <li><a href="/html/get-involved.html">Get Involved</a></li>
-                <li><a href="/html/contact.html">Contact Us</a>
-            </ul>
-        </div>
-        <div>
+        <div class="back-to-top">
             <a href="#top"><p>Back to Top <i class="fa-solid fa-arrow-up"></i></p></a>
         </div>
     </footer>

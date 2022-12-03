@@ -13,11 +13,17 @@
 </head>
 <body>
     <header>
-        <a name="top" href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
-        <div class="nav-bars-menu">
-            <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
-            <nav class="header-nav">
+        <div class="logo-div">
+            <a name="top" href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
+        </div>
+        <div class="search-bars">
+            <div class="nav-bars-menu">
+                <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
+                <label for="menu-checkbox">
+                    <span class="open-menu"><i class="fas fa-bars"></i></span>
+                    <span class="close-menu"><i class="fa-solid fa-arrow-left-long"></i></span>
+                </label>
+                <nav class="header-nav">
                 <ul>
                     <li class="home-remove"><a href="/html/index.html" class="active">Home</a></li>
                     <li><a href="/html/about.html">About</a></li>
@@ -31,97 +37,111 @@
             </nav>
         </div>
         <div class="search-bar">
-            <input type="text" class="search-input">
             <input type="checkbox" id="search-checkbox" name="search-checkbox">
             <label for="search-checkbox">
-                <span class="open"><i class="fa fa-magnifying-glass"></i></span>
-                <span class="close"><i class="fa-solid fa-x"></i></span>
+                <span class="open-search"><i class="fa fa-magnifying-glass"></i></span>
+                <span class="close-search"><i class="fa-solid fa-x"></i></span>
             </label>
+            <div class="search-bar-page">
+                <input type="text" class="search-input" placeholder="What can we find for you?">
+            </div>
         </div>
     </header>
     <main>
-        <div class="breadcrumb">
-            <p><a href="/html/index.html" class="bread-home">Home</a>&nbsp;/&nbsp;<a href="/html/explore.html">Explore</a>&nbsp;/&nbsp;<span class="current-page">For Teachers</span></p>
-        </div>
-        <section class="top-main">
-            <div class="top-main-txt">
-                <h1>For Teachers</h1>
-                <p>We have a variety of things on offer for teachers and students at the Community Science Museum. These include guided tours, practical learning and engaging lectures.</p>
+        <div class="main-div">
+            <div class="breadcrumb">
+                <p><a href="/html/index.html" class="bread-home">Home</a>&nbsp;/&nbsp;<a href="/html/explore.html">Explore</a>&nbsp;/&nbsp;<span class="current-page">For Teachers</span></p>
             </div>
-            <div class="top-main-img">
-                <img src="/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="Group of teachers sitting together on a stone step with arms over each other">
-            </div>
-        </section>
-        <div class="flex-box">
-            <div>
-                <h2>More About</h2>
-                <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p>
-                <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p>
-                <h2>What we can Offer</h2>
-                <ul>
-                    <li>Fun education for all</li>
-                    <li>Fun education for all</li>
-                    <li>Fun education for all</li>
-                    <li>Fun education for all</li>
-                    <li>Fun education for all</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Price</h2>
-                <p>The museum is FREE for all to come. But, it is important to notify the meseum on the day you and the students will be coming. This allows us to organise better to prevent many schools coming on the same day.</p>
-                <p>If you would like group guided tours for the students, the cost is 70kr per student.</p>
-                <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
-                <a href="/html/contact.html" class="cta-main">Contact us</a> 
-            </div>
-        </div>
-        <div>
-            <h2>Explore More</h2>
+            <section class="top-main">
+                <div class="top-main-txt">
+                    <h1>For Teachers</h1>
+                    <p>We have a variety of things on offer for teachers and students at the Community Science Museum. These include guided tours, practical learning and engaging lectures.</p>
+                </div>
+                <div class="top-main-img">
+                    <img src="/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="Group of teachers sitting together on a stone step with arms over each other">
+                </div>
+            </section>
             <div class="flex-box">
                 <div>
-                    <a href="/html/explore-spec-pages/explore-kids.html">
-                        <img src="/images/samuel-zeller-158996.jpg" alt="Child wearing a virtual reality headset and stairing at the ceiling">
-                        <h4>For kids</h4>
-                    </a>
-                    <a href="/html/explore-spec-pages/explore-researchers.html">
-                        <img src="/images/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg" alt="A lady in a science lab looking at a dark test tube">
-                        <h4>For researchers</h4>
-                    </a>
+                    <h2>More About</h2>
+                    <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p>
+                    <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p>
+                    <h2>What we can Offer</h2>
+                    <ul>
+                        <li>Fun education for all</li>
+                        <li>Fun education for all</li>
+                        <li>Fun education for all</li>
+                        <li>Fun education for all</li>
+                        <li>Fun education for all</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Price</h2>
+                    <p>The museum is FREE for all to come. But, it is important to notify the meseum on the day you and the students will be coming. This allows us to organise better to prevent many schools coming on the same day.</p>
+                    <p>If you would like group guided tours for the students, the cost is 70kr per student.</p>
+                    <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
+                    <a href="/html/contact.html" class="cta-main">Contact us</a> 
+                </div>
+            </div>
+            <div>
+                <h2>Explore More</h2>
+                <div class="flex-box">
+                    <div>
+                        <a href="/html/explore-spec-pages/explore-kids.html">
+                            <img src="/images/samuel-zeller-158996.jpg" alt="Child wearing a virtual reality headset and stairing at the ceiling">
+                            <h4>For kids</h4>
+                        </a>
+                        <a href="/html/explore-spec-pages/explore-researchers.html">
+                            <img src="/images/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg" alt="A lady in a science lab looking at a dark test tube">
+                            <h4>For researchers</h4>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div>
-            <h4>Location</h4>
-            <p>Kolderups vei 14, Disen, <span class="line-break">0587 Oslo, Norway.</span> 
-            </p>
-            <a href="https://www.google.no/maps/place/Kolderups+vei+14,+0587+Oslo/@59.9416565,10.79321,15z/data=!4m5!3m4!1s0x46416e301a2b6099:0xebc75bda3a1d7912!8m2!3d59.9426012!4d10.7946088"><img src="/images/Map.JPG" alt="Google maps showing the location of the Community Science Museum"></a>
+        <div class="large-scree-foot-flex">
+            <div class="main-footer">
+                <div>
+                    <p class="footer-headers bold-span">Location</p>
+                    <p>Kolderups vei 14, Disen, <span class="line-break">0587 Oslo, Norway.</span> 
+                    </p>
+                    <a href="https://www.google.no/maps/place/Kolderups+vei+14,+0587+Oslo/@59.9416565,10.79321,15z/data=!4m5!3m4!1s0x46416e301a2b6099:0xebc75bda3a1d7912!8m2!3d59.9426012!4d10.7946088"><img src="/images/Map.JPG" alt="Google maps showing the location of the Community Science Museum"></a>
+                </div>
+                <div>
+                    <p class="footer-headers bold-span">Opening Hours</p>
+                    <p><span class="bold-span">Mon:</span> Closed<span class="line-break"><span class="bold-span">Tue - Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-span">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-span">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-span">Sun:</span> 9:00 - 13:00</span></p>
+                </div>
+                <div class="social-med-icons">
+                    <p class="footer-headers bold-span">Social Media</p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="contact-footer">
+                    <p class="footer-headers bold-span">Contact us</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i> +47 923 65 217 <span class="line-break"><i class="fa-regular fa-envelope"></i> CSM@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="footer-nav bold-span">
+                <div>
+                    <p><a href="/html/index.html">Home</a></p>
+                    <p><a href="/html/about.html">About</a></p>
+                    <p><a href="/html/visit.html">Visit</a></p>
+                </div>
+                <div>
+                    <p><a href="/html/events.html">Events</a></p>
+                    <p><a href="/html/exhibition-spaces.html">Exhibitions</a></p>
+                    <p><a href="/html/explore.html">Explore</a></p>
+                </div>
+                <div>
+                    <p><a href="/html/get-involved.html">Get Involved</a></p>
+                    <p><a href="/html/contact.html">Contact Us</a></p>
+                </div>
+            </div>
         </div>
-        <div>
-            <h4>Opening Hours</h4>
-            <p><span class="bold-span">Mon:</span> Closed<span class="line-break"><span class="bold-span">Tue to Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-span">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-span">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-span">Sun:</span> 9:00 - 13:00</span></p>
-        </div>
-        <div>
-            <h4>Social Media</h4>
-        </div>
-        <div>
-            <h4>Contact us</h4>
-            <i class="fa-solid fa-mobile-screen"></i><p>+47 923 65 217</p>
-            <i class="fa-regular fa-envelope"></i><p>CSM@gmail.com</p>
-        </div>
-        <div>
-            <ul>
-                <li class="home-remove"><a href="/html/index.html" class="active">Home</a></li>
-                <li><a href="/html/about.html">About</a></li>
-                <li><a href="/html/visit.html">Visit</a></li>
-                <li><a href="/html/events.html">Events</a></li>
-                <li><a href="/html/exhibition-spaces.html">Exhibitions</a></li>
-                <li><a href="/html/explore.html">Explore</a></li>
-                <li><a href="/html/get-involved.html">Get Involved</a></li>
-                <li><a href="/html/contact.html">Contact Us</a>
-            </ul>
-        </div>
-        <div>
+        <div class="back-to-top">
             <a href="#top"><p>Back to Top <i class="fa-solid fa-arrow-up"></i></p></a>
         </div>
     </footer>

@@ -13,11 +13,17 @@
 </head>
 <body>
     <header>
-        <a name="top" href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
-        <div class="nav-bars-menu">
-            <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
-            <nav class="header-nav">
+        <div class="logo-div">
+            <a name="top" href="/html/index.html"><img src="/images/CSM-logo.JPG" class="logo" alt="community science museum logo"></a>
+        </div>
+        <div class="search-bars">
+            <div class="nav-bars-menu">
+                <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
+                <label for="menu-checkbox">
+                    <span class="open-menu"><i class="fas fa-bars"></i></span>
+                    <span class="close-menu"><i class="fa-solid fa-arrow-left-long"></i></span>
+                </label>
+                <nav class="header-nav">
                 <ul>
                     <li class="home-remove"><a href="/html/index.html">Home</a></li>
                     <li><a href="/html/about.html" class="active">About</a></li>
@@ -31,32 +37,36 @@
             </nav>
         </div>
         <div class="search-bar">
-            <input type="text" class="search-input">
             <input type="checkbox" id="search-checkbox" name="search-checkbox">
             <label for="search-checkbox">
-                <span class="open"><i class="fa fa-magnifying-glass"></i></span>
-                <span class="close"><i class="fa-solid fa-x"></i></span>
+                <span class="open-search"><i class="fa fa-magnifying-glass"></i></span>
+                <span class="close-search"><i class="fa-solid fa-x"></i></span>
             </label>
+            <div class="search-bar-page">
+                <input type="text" class="search-input" placeholder="What can we find for you?">
+            </div>
         </div>
     </header>
     <main>
-        <section class="top-main">
-            <div class="top-main-txt">
-                <h1>About the Community Science Museum</h1>
-                <p>Over the course of human history, science has and continues to develop. The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-            </div>
-            <div class="top-main-img">
-                <img src="/images/marc-rentschler-WPOudjnq9xw-unsplash.jpg" alt="Highlighted world globe in a dark room">
-            </div>
-        </section>
-        <div class="txt-img-flex">
-            <div>
-                <h2>Different Ways of Learning</h2>
-                <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone has gone home).</p>
-               <a href="/html/exhibition-spaces.html" class="cta-main">Our Exhibitions</a>
-            </div>
-            <div>
-                <img src="/images/toa-heftiba-412579.jpg" alt="Fossil in a museum hanging from the ceiling with people walking by">
+        <div class="main-div">
+            <section class="top-main">
+                <div class="top-main-txt">
+                    <h1>About the Community Science Museum</h1>
+                    <p>Over the course of human history, science has and continues to develop. The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                </div>
+                <div class="top-main-img">
+                    <img src="/images/marc-rentschler-WPOudjnq9xw-unsplash.jpg" alt="Highlighted world globe in a dark room">
+                </div>
+            </section>
+            <div class="txt-img-flex">
+                <div>
+                    <h2>Different Ways of Learning</h2>
+                    <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone has gone home).</p>
+                   <a href="/html/exhibition-spaces.html" class="cta-main">Our Exhibitions</a>
+                </div>
+                <div>
+                    <img src="/images/toa-heftiba-412579.jpg" alt="Fossil in a museum hanging from the ceiling with people walking by">
+                </div>
             </div>
         </div>
     </main>
@@ -85,23 +95,23 @@
                 </div>
             </div>
             <div class="footer-nav bold-span">
-                <ul>
-                    <li><a href="/html/index.html">Home</a></li>
-                    <li><a href="/html/about.html">About</a></li>
-                    <li><a href="/html/visit.html">Visit</a></li>
-                </ul>
-                <ul>
-                    <li><a href="/html/events.html">Events</a></li>
-                    <li><a href="/html/exhibition-spaces.html">Exhibitions</a></li>
-                    <li><a href="/html/explore.html">Explore</a></li>
-                </ul>
-                <ul>
-                    <li><a href="/html/get-involved.html">Get Involved</a></li>
-                    <li><a href="/html/contact.html">Contact Us</a></li>
-                </ul>
+                <div>
+                    <p><a href="/html/index.html">Home</a></p>
+                    <p><a href="/html/about.html">About</a></p>
+                    <p><a href="/html/visit.html">Visit</a></p>
+                </div>
+                <div>
+                    <p><a href="/html/events.html">Events</a></p>
+                    <p><a href="/html/exhibition-spaces.html">Exhibitions</a></p>
+                    <p><a href="/html/explore.html">Explore</a></p>
+                </div>
+                <div>
+                    <p><a href="/html/get-involved.html">Get Involved</a></p>
+                    <p><a href="/html/contact.html">Contact Us</a></p>
+                </div>
             </div>
         </div>
-        <div>
+        <div class="back-to-top">
             <a href="#top"><p>Back to Top <i class="fa-solid fa-arrow-up"></i></p></a>
         </div>
     </footer>

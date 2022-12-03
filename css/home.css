@@ -8,20 +8,8 @@ h4 {
     margin-top: 0;
 }
 
-.top-main-img::after {
-    content: '';
-    background: #3F3082;
-    display: block;
-    position: absolute;
-    height: 1240px;
-    width: 100%;
-    left: 0;
-    top: 610px;
-    z-index: -1000;
-}
-
 .home-sec-gap {
-    margin: 60px 0;
+    margin: 70px 0;
 }
 
 .opening-time-home-wrap {
@@ -42,12 +30,15 @@ h4 {
 
 .events-list img,
 .explore-list img {
+    max-width: 300px;
+}
+
+.exhib-space-img img {
     max-width: 320px;
 }
 
 .exhib-space-img img {
     margin-top: 20px;
-    width: 75%;
 }
 
 .explore-list::before {
@@ -55,7 +46,7 @@ h4 {
     background: #3F3082;
     display: block;
     position: absolute;
-    height: 1100px;
+    height: 1200px;
     width: 100%;
     left: 0;
     top: 2340px;

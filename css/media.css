@@ -1,3 +1,24 @@
+@media (min-width: 500px) {
+    .events-list img,
+    .explore-list img {
+        max-width: 80%;
+    }
+
+    .exhib-space-img img {
+        max-width: 90%;
+    }
+
+    .top-main-img::after {
+        height: 1370px;
+    }
+
+    .explore-list::before {
+        height: 1200px;
+        top: 2520px;
+    }
+   
+}
+
 @media (min-width: 800px) {
 /* Footer */
     footer .main-footer {
@@ -52,7 +73,6 @@
 
     footer .footer-nav {
         display: block;
-        margin-top: 40px;
     }
 
     footer .footer-nav ul {
