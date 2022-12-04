@@ -38,7 +38,8 @@ a {
 }
 
 header li,
-footer li {
+footer li,
+ol li  {
     list-style: none;
 }
 
@@ -88,7 +89,7 @@ footer li {
     background: #3F3082;
     display: block;
     position: absolute;
-    height: 1250px;
+    height: 1280px;
     width: 100%;
     left: 0;
     top: 610px;
@@ -206,14 +207,14 @@ header img {
     border: 1px solid lightgray;
     border-radius: 200px;
     height: 43px;
-    right: -3px;
+    right: 10px;
     top: -3px;
 }
 
 #search-checkbox:checked ~ .search-bar-page {
     display: inline-block;
     position: absolute;
-    right: 15px;
+    right: 0px;
 }
 
 #search-checkbox:checked ~ label .open-search{
@@ -239,21 +240,17 @@ main .main-div {
 }
 
 .top-main-img img {
-    max-width: 80%;
+    max-width: 90%;
     border: white 10px solid;
 }
 
-.top-main p,
-.exhib-space p  {
-    display: inline-block;
-    text-align: left;
-    margin: 0 20px 20px 20px;
-    max-width: 400px;
+.events-list img,
+.explore-list img {
+    max-width: 300px;
 }
 
-.top-main-txt,
-.top-main p {
-    margin-bottom: 20px;
+ol {
+    text-decoration: none;
 }
 
 /* Footer */
@@ -294,10 +291,6 @@ footer .footer-nav {
 
 footer .footer-nav > * {
     margin: 0 5%;
-}
-
-footer .footer-list-outside {
-    list-style-position: outside;
 }
 
 footer .back-to-top {

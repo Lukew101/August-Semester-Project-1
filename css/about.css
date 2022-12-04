@@ -1,0 +1,28 @@
+.top-main-img::after {
+    height: 800px;
+}
+
+.top-main-txt {
+    min-width: 300px;
+}
+
+.txt-img-flex {
+    margin-top: 40px;
+}
+
+.top-main .page-nav-list p {
+    text-align: left;
+    margin: 0px;
+}
+
+.about-bott-img img {
+    max-width: 80%;
+    min-width: none;
+    margin: 20px 0;
+}
+
+.content-nav-flex ol li a {
+    color:  black;
+    font-weight: bold;
+    font-size: 16px;
+}

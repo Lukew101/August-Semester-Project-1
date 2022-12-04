@@ -10,6 +10,7 @@
     <link href="/css/visit.css" rel="stylesheet" />
     <link href="/css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/958e18979f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -47,54 +48,63 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="visit-main">
         <div class="main-div">
             <section class="top-main">
                 <div class="top-main-txt">
                     <h1>Plan Your Visit</h1>
                     <p>There are so many things to do and see. Therefore, before visiting the Community Science Meseum, we recommend you plan out your day.</p>
-                    <ol>
-                        <li><a href="#location">Location</a></li>
-                        <li><a href="#admission">Admission</a></li>
-                        <li><a href="#opening-hours">Opening Hours</a></li>
-                        <li><a href="#getting-here">Getting Here</a></li>
-                        <li><a href="#accessibility">Accessibility</a></li>
-                        <li><a href="#cafe">Cafe</a></li>
-                        <li><a href="#shop">Shop</a></li>
-                    </ol>
+                    <div class="content-nav-flex">
+                        <ol>
+                            <li><a href="#location">1. Location</a></li>
+                            <li><a href="#admission">2. Admission</a></li>
+                            <li><a href="#opening-hours">3. Opening Hours</a></li>
+                            <li><a href="#getting-here">4. Getting Here</a></li>
+                        </ol>
+                        <ol>
+                            <li><a href="#accessibility">5. Accessibility</a></li>
+                            <li><a href="#cafe">6. Cafe</a></li>
+                            <li><a href="#shop">7. Shop</a></li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="top-main-img">
                     <img src="/images/scott-webb-102825.jpg" alt="Side view of the outside of the museum">
                 </div>
+                <div class="wave-background">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                    </svg>
+                </div>
             </section>
-            <div class="txt-img-flex">
+            <div class="txt-img-flex white-txt list-split">
                 <div>
                     <a name="location"></a><h2>1. Location</h2>
                     <p>Kolderups vei 14, Disen, 0587 Oslo, Norway.<span class="line-break">Click on the map to find us on Google maps.</span></p>
                 </div>
-                <div>
+                <div class="goog-map">
                     <a href="https://www.google.no/maps/place/Kolderups+vei+14,+0587+Oslo/@59.9416565,10.79321,15z/data=!4m5!3m4!1s0x46416e301a2b6099:0xebc75bda3a1d7912!8m2!3d59.9426012!4d10.7946088"><img src="/images/Map.JPG" alt="Google maps showing the location of the Community Science Museum"></a> 
                 </div>
             </div>
-            <div>
+            <div class="txt-align-left white-txt div-line">
                 <a name="admission"></a><h2>2. Admission</h2>
                 <p>The entrance is FREE for all.</span></p>
                 <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p>
                 <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
                 <a href="/html/visit.html" class="cta-main">Contact Us</a>
             </div>
-            <div>
+            <div class=" txt-align-left white-txt list-split div-line">
                 <a name="opening-hours"></a><h2>3. Opening Hours</h2>
                 <p><span>Mon:</span> Closed<span class="line-break"><span class="bold-span">Tue to Thu:</span> 10:00 - 16:00</span><span class="line-break"><span class="bold-span">Fri:</span> 10:00 - 19:00</span><span class="line-break"><span class="bold-span">Sat:</span> 9:00 - 16:00</span><span class="line-break"><span class="bold-span">Sun:</span> 9:00 - 13:00</span></p>
             </div>
-            <div>
+            <div class="txt-align-left white-txt div-line">
                 <a name="getting-here"></a><h2>4. Getting Here</h2>
                 <p>There are several alternatives to get to the Museum. These include:</p>
                 <p>1. Take the 20 bus to Kolderups Vei and walk 150m.</p>
-                <p>Take the tram to kfeoegje vei and walk 500m</p>
-                <p>Drive and use our car park.<span class="bold-span">Parking cost 100kr per hour.</span> There is no gaurantee for a spot, so street parking may also be required.</p>
+                <p>2. Take the tram to kfeoegje vei and walk 500m</p>
+                <p>3. Drive and use our car park.<span class="bold-span">Parking cost 100kr per hour.</span> There is no gaurantee for a spot, so street parking may also be required.</p>
             </div>
-            <div class="txt-img-flex">
+            <div class="txt-align-left txt-img-flex white-txt list-split div-line">
                 <div>
                     <a name="accessibility"><h2>5. Accessibility</h2></a>
                     <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
@@ -103,7 +113,7 @@
                     <img src="/images/charlesdeluvio-RrZI0UD12So-unsplash.jpg">
                 </div>
             </div>
-            <div class="txt-img-flex">
+            <div class="txt-align-left txt-img-flex white-txt div-line">
                 <div>
                     <a name="cafe"><h2>6. Cafe</h2></a>
                     <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
@@ -112,7 +122,7 @@
                     <img src="/images/sincerely-media-VNsdEl1gORk-unsplash.jpg">
                 </div>
             </div>
-            <div class="txt-img-flex">
+            <div class="txt-align-left txt-img-flex white-txt list-split div-line">
                 <div>
                     <a name="shop"><h2>7. Shop</h2></a>
                     <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>

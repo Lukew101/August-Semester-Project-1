@@ -8,6 +8,19 @@ h4 {
     margin-top: 0;
 }
 
+.top-main p,
+.exhib-space p  {
+    display: inline-block;
+    text-align: left;
+    margin: 0 20px 20px 20px;
+    max-width: 400px;
+}
+
+.top-main-txt,
+.top-main p {
+    margin-bottom: 20px;
+}
+
 .home-sec-gap {
     margin: 70px 0;
 }
@@ -28,11 +41,6 @@ h4 {
     margin-top: 15px;
 }
 
-.events-list img,
-.explore-list img {
-    max-width: 300px;
-}
-
 .exhib-space-img img {
     max-width: 320px;
 }
@@ -49,6 +57,6 @@ h4 {
     height: 1200px;
     width: 100%;
     left: 0;
-    top: 2340px;
+    top: 2380px;
     z-index: -1000;
 }

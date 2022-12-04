@@ -1,0 +1,38 @@
+.top-main-img::after {
+    height: 3200px;
+}
+
+.txt-align-left p {
+    text-align: left;
+}
+
+.top-main-txt .top-main p {
+    margin-bottom: 5px;
+}
+
+.content-nav-flex {
+    display: flex;
+    text-align: left;
+}
+
+.content-nav-flex ol li a {
+    color:  black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.top-main-txt {
+    margin-bottom: none;
+}
+
+.goog-map img {
+    max-width: 300px;
+}
+
+.list-split {
+    margin: 50px 0;
+}
+
+.div-line {
+    border-top: solid 1px white;
+}
