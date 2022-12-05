@@ -1,0 +1,49 @@
+.wave-background {
+    top: 390px;
+}
+
+.top-main-img::after {
+    height: 1750px;
+    top: 560px;
+}
+
+.donation-centre {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+.donation-form .form-grid {
+    display: grid;
+    text-align: left;
+}
+
+.donation-form .form-grid h2,h3 {
+    text-align: center;
+}
+
+.donation-form .form-grid input {
+    max-width: 280px;
+}
+
+.donation-form .form-grid > * {
+    margin: 5px 0 0 5px;
+}
+
+.donation-form .form-grid input {
+    margin-bottom: 5px;
+}
+
+.donation-form .form-grid h3 {
+    margin-top: 20px;
+}
+
+.donation-form {
+    background: lightgray;
+    min-width: 300px;
+}
+
+.submit-donation {
+    padding: 10px 0 15px 0;
+    text-align: center;
+}

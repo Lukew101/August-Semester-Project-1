@@ -17,7 +17,13 @@
         height: 1200px;
         top: 2560px;
     }
-   
+
+    .popular-circ {
+        margin-left: 325px;
+        margin-top: 190px;
+        transform: rotateY(0deg) rotate(-45deg);
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -49,7 +55,6 @@
         background-color: none;
         border: none;
         height: 60px;
-        text-align: left;
     }
 
     header nav ul li {
@@ -60,13 +65,46 @@
     header .donate-header {
         margin-top: 0;
     }
+    
+/* Global main */
+    main .main-div {
+        max-width: 1200px;
+    }
 
+    .top-main,
+    .txt-img-flex {
+        display: flex;
+    }
+
+    .top-main > *,
+    .txt-img-flex > * {
+        flex-basis: 50%;
+    }
+
+    .txt-img-flex {
+        display: flex;
+        flex-basis: 50%;
+    }
+
+    .exhib-spec-img img {
+        margin-top: 100px;
+    }
+    
+/* Home */
+    .exhib-space-img img {
+        max-width: 90%;
+    }
 }
 
 @media (min-width: 1200px) {
     header nav {
         left: 25%;
     }
+
+    .top-main-img img {
+        max-width: 100%;
+    }
+
 /* Footer */
     footer .large-scree-foot-flex {
         display: flex;

@@ -1,0 +1,12 @@
+.wave-background {
+    top: 400px;
+}
+
+.top-main-img::after {
+    height: 1750px;
+    top: 570px;
+}
+
+.flex-box a p {
+    margin: 15px 0 15px 20px;
+}

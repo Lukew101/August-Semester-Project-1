@@ -48,7 +48,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="donation-main">
         <div class="main-div">
             <section class="top-main">
                 <div class="top-main-txt">
@@ -58,56 +58,70 @@
                 <div class="top-main-img">
                     <img src="/images/annie-spratt-flVuw7nbzmM-unsplash.jpg" alt="Girl putting a coin into a van shaped savings container">
                 </div>
-                <div class="wave-background">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                    </svg>
-                </div>
             </section>
+            <div class="wave-background">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
             <div class="flex-box">
-                <div>
-                    <h2>Donate With Card</h2>
-                    <div class="donate-flex">
-                        <div class="checkout-form">
-                            <form method="POST">
-                                <div class="form-grid">
-                                    <h3>Donation Amount</h3>
-                                    <label for="amount">Enter Amount</label>
-                                    <input type="text" id="amount" name="amount" />
-                                    <label for="recurring-option">Recurring Option</label>
-                                    <h3>Billing Information</h3>
-                                    <label for="name">Name</label>
-                                    <input type="text" id="name" name="name" />
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" />
-                                    <label for="number">Phone number</label>
-                                    <input type="tel" id="number" name="number" />
-                                    <h2>Payment Details</h2>
-                                    <label for="card-num">Card Number</label>
-                                    <input type="text" id="card-num" name="card-num">
-                                    <label for="name-card">Name on Card</label>
-                                    <input type="text" id="name-card" name="name-card" />
-                                    <label for="card-verif">Card Verification (CVV)</label>
-                                    <input type="text" id="card-verif" name="card-verif">
-                                    <label for="card-exp">Card Expiration</label>
-                                    <input type="text" id="card-exp" name="card-exp">
-                                    <div class="cta-continue">
-                                        <a class="cta-main" href="/html/after-donation.html">Submit donation</a>
-                                    </div>
+                <div class="donation-centre">
+                    <h2 class="white-txt">Donate With Card</h2>
+                    <div class="donation-form">
+                        <form method="POST">
+                            <div class="form-grid">
+                                <h3>Donation Amount</h3>
+                                <label for="amount">Enter Amount</label>
+                                <input type="text" id="amount" name="amount" />
+                                <label for="recurring-option">Recurring Option</label>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="one-time">One-time</label>
+                                    <input type="checkbox">
+                                    <label for="monthly">Monthly</label>
+                                    <input type="checkbox">
+                                    <label for="yearly">Yearly</label>
                                 </div>
-                            </form>
-                        </div>
+                                <h3>Billing Information</h3>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" />
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" />
+                                <label for="number">Phone number</label>
+                                <input type="tel" id="number" name="number" />
+                                <h3>Payment Details</h3>
+                                <label for="card-num">Card Number</label>
+                                <input type="text" id="card-num" name="card-num">
+                                <label for="name-card">Name on Card</label>
+                                <input type="text" id="name-card" name="name-card" />
+                                <label for="card-verif">Card Verification (CVV)</label>
+                                <input type="text" id="card-verif" name="card-verif">
+                                <label for="card-exp">Card Expiration</label>
+                                <input type="text" id="card-exp" name="card-exp">
+                                <div class="submit-donation">
+                                    <a class="cta-main" href="/html/after-donation.html">Submit donation</a>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div>
-                    <h2>Donate With Cash</h2>
-                    <p>We have many glass boxes around the Meseum for you to put cash in if you wish to donate this way.</p>
-                    <h2>Donate Iteams</h2>
-                    <p>If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.</p>
-                    <p>Collections Department<span class="line-break">Tlf. +47 923 65 217</span></p>
-                    <h2>Donate Your Time</h2>
-                    <p>We have many volunteering roles available for people to help out. Please contact us if you are interested.</p>
-                    <a href="/html/contact.html" class="cta-main">Contact us</a>
+                    <div class="list-split white-txt">
+                        <h2>Donate With Cash</h2>
+                        <p>We have many glass boxes around the Meseum for you to put cash in if you wish to donate this way.</p>
+                    </div>
+                    <div class="list-split white-txt">
+                        <h2>Donate Iteams</h2>
+                        <p>If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.</p>
+                        <p><span  class="bold-span">Collections Department</span><span class="line-break">Tlf. +47 923 65 217</span></p>
+                    </div>
+                    <div class="list-split white-txt">
+                        <h2>Donate Your Time</h2>
+                        <p>We have many volunteering roles available for people to help out. Please contact us if you are interested.</p>
+                    </div>
+                    <div class="list-split">
+                        <a href="/html/contact.html" class="cta-main">Contact us</a>
+                    </div>
                 </div>
             </div>
         </div>

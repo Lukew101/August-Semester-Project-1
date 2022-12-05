@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
 
 /* Global */
+html {
+    scroll-behavior: smooth;
+}
+
 h1,h2,h3,h4, nav a {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -31,6 +35,7 @@ a {
 
 .line-break {
     display: block;
+    margin-top: 5px;
 }
 
 .bold-span {
@@ -41,6 +46,10 @@ header li,
 footer li,
 ol li  {
     list-style: none;
+}
+
+ol {
+    text-decoration: none;
 }
 
 .cta-main {
@@ -226,7 +235,7 @@ header img {
     position: relative;
 }
 
-/* Global top main */
+/* Global top section main */
 main {
     display: grid;
     grid-template-columns: auto;
@@ -244,13 +253,73 @@ main .main-div {
     border: white 10px solid;
 }
 
+/* Global other sections main */
+.list-split {
+    margin: 50px 0;
+}
+
+.main-div p {
+    text-align: left;
+}
+
 .events-list img,
 .explore-list img {
     max-width: 300px;
 }
 
-ol {
-    text-decoration: none;
+.exhib-spec-img img,
+.get-inv-spec-img img {
+    max-width: 90%;
+}
+
+.popular-circ {
+    position: absolute;
+    background-color: #ede416;
+    border-radius: 100%;
+    height: 65px;
+    width: 65px;
+    margin-left: 68%;
+    margin-top: 150px;
+    transform: rotateY(0deg) rotate(-45deg);
+}
+
+.popular-circ p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.topic-bubble {
+    background: #E16B15;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.flex-box a p {
+    margin: 15px 0 15px 20px;
+}
+
+/* Same page nav */
+.content-nav-flex {
+    display: flex;
+    text-align: left;
+}
+
+.content-nav-flex ol li a,
+.get-inv-nav li a {
+    color:  black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.content-nav-flex ol li,
+.get-inv-nav li {
+    margin: 5px 0;
 }
 
 /* Footer */

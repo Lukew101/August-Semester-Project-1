@@ -1,0 +1,8 @@
+.exhib-space-main .top-main-img::after {
+    height: 3700px;
+    top: 610px;
+}
+
+.exhib-spec-img img {
+    max-width: 90%;
+}

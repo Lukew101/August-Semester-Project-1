@@ -1,5 +1,10 @@
+.wave-background {
+    top: 400px;
+}
+
 .top-main-img::after {
     height: 800px;
+    top: 570px;
 }
 
 .top-main-txt {
@@ -19,10 +24,4 @@
     max-width: 80%;
     min-width: none;
     margin: 20px 0;
-}
-
-.content-nav-flex ol li a {
-    color:  black;
-    font-weight: bold;
-    font-size: 16px;
 }

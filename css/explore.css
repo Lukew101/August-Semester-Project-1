@@ -1,0 +1,8 @@
+.wave-background {
+    top: 370px;
+}
+
+.top-main-img::after {
+    height: 1500px;
+    top: 540px;
+}

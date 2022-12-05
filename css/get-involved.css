@@ -1,0 +1,20 @@
+.wave-background {
+    top: 370px;
+}
+
+.top-main-img::after {
+    height: 2300px;
+    top: 540px;
+}
+
+.get-inv-nav {
+    text-align: left;
+}
+
+.get-inv-spec-img img {
+    margin-top: 20px;
+}
+
+.get-inv-spec-img img {
+    max-width: 90%;
+}
