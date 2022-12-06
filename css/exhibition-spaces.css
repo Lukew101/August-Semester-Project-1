@@ -1,8 +1,20 @@
 .exhib-space-main .top-main-img::after {
     height: 3700px;
-    top: 610px;
 }
 
-.exhib-spec-img img {
-    max-width: 90%;
+@media (min-width: 1000px) {
+    .exhib-space-main .top-main-img::after {
+        height: 2700px;
+    } 
+
+    main .main-div .exhib-cta-align,
+    main .main-div .txt-flex h2  {
+        text-align: left;
+    }
+
+    .txt-flex,
+    main .main-div .exhib-cta-align {
+        margin-left: 10px;
+    }
 }
+

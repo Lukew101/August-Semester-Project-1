@@ -25,3 +25,22 @@
     min-width: none;
     margin: 20px 0;
 }
+
+@media (min-width: 1000px) {
+    .wave-background {
+        top: 250px;
+    }
+
+    .top-main-img::after {
+        top: 500px;
+        height: 750px;
+    }
+
+    .main-div .top-main {
+        margin-bottom: 100px;
+    }
+
+    .main-div .about-learning-ways-txt h2 {
+        text-align: left;
+    }
+}

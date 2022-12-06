@@ -1,0 +1,13 @@
+.wave-background {
+    top: 390px;
+}
+
+.top-main-img::after {
+    height: 1750px;
+    top: 560px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 0;
+}

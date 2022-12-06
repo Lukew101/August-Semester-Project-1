@@ -1,29 +1,10 @@
 @media (min-width: 500px) {
-    /* Home */
     .events-list img,
-    .explore-list img {
+    .explore-list img,
+    .explore-more-list img,
+    .more-events-list img {
         max-width: 80%;
     }
-
-    .exhib-space-img img {
-        max-width: 90%;
-    }
-
-    .home-main .top-main-img::after {
-        height: 1400px;
-    }
-
-    .home-main .explore-list::before {
-        height: 1200px;
-        top: 2560px;
-    }
-
-    .popular-circ {
-        margin-left: 325px;
-        margin-top: 190px;
-        transform: rotateY(0deg) rotate(-45deg);
-    }
-
 }
 
 @media (min-width: 800px) {
@@ -71,6 +52,10 @@
         max-width: 1200px;
     }
 
+    .top-main {
+        margin-bottom: 50px;
+    }
+
     .top-main,
     .txt-img-flex {
         display: flex;
@@ -81,18 +66,54 @@
         flex-basis: 50%;
     }
 
+    .top-main-txt,
+    .exhib-space,
+    .about-learning-ways-txt {
+        margin-left: 10px;
+    }
+
+    .wave-background {
+        top: 250px;
+    }
+
+    .wave-background svg {
+        height: 250px;
+    }
+
+    .top-main-img::after {
+        top: 500px;
+    }
+
+    main .main-div .top-main,
+    main .main-div .exhib-space {
+        text-align: left;
+    }
+
+    .top-main p,
+    .exhib-space p {
+        margin: 0 0 20px 0;
+    }
+
     .txt-img-flex {
         display: flex;
         flex-basis: 50%;
     }
 
+    .flex-box {
+        display: flex;
+    }
+
+    .flex-box > * {
+        flex: 1;
+    }
+
     .exhib-spec-img img {
         margin-top: 100px;
     }
-    
-/* Home */
-    .exhib-space-img img {
-        max-width: 90%;
+
+    .explore-more-list img,
+    .more-events-list img {
+        max-width: 60%;
     }
 }
 

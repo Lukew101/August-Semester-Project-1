@@ -21,3 +21,26 @@
 .div-line {
     border-top: solid 1px white;
 }
+
+@media (min-width: 1000px) {
+    .visit-main .main-div .visit-main-info {
+        display: inline-block;
+        max-width: 700px;
+    }
+
+    .main-div .top-main {
+        margin-bottom: 100px;
+    }
+
+    .visit-img-marg {
+        margin-top: 5px;
+    }
+
+    .txt-img-flex p {
+        margin-top: 0px;
+    }
+
+    .visit-main-info p {
+        max-width: 600px;
+    }
+}

@@ -1,0 +1,40 @@
+.wave-background {
+    top: 530px;
+}
+
+.top-main-img::after {
+    height: 1650px;
+    top: 700px;
+}
+
+.event-spec-info {
+    display: flex;
+    margin-left: 10px;
+}
+
+.plan-trip-butt {
+    padding: 10px 0 15px 0;
+}
+
+.event-spec-background {
+    background: #312859;
+    display: inline-block;
+    width: 280px;
+}
+
+.event-spec-info-txt-space {
+    margin-left: 10px;
+}
+
+.spec-info-header-marg,
+.spec-info-list .spec-info-header-marg  {
+    margin-top: 30px;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.spec-info-list h2 {
+    margin-top: 0;
+}
