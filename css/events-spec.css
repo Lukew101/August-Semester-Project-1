@@ -1,10 +1,10 @@
 .wave-background {
-    top: 530px;
+    top: 450px;
 }
 
 .top-main-img::after {
     height: 1650px;
-    top: 700px;
+    top: 620px;
 }
 
 .event-spec-info {
@@ -26,8 +26,7 @@
     margin-left: 10px;
 }
 
-.spec-info-header-marg,
-.spec-info-list .spec-info-header-marg  {
+.spec-info-header-marg  {
     margin-top: 30px;
 }
 
@@ -35,6 +34,65 @@
     text-transform: uppercase;
 }
 
-.spec-info-list h2 {
+h2 {
     margin-top: 0;
 }
+
+.underline {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 1000px) {
+    .event-spec-background {
+        width: 950px;
+        justify-content: space-evenly;
+    } 
+
+    .top-main-img::after {
+        height: 1100px;
+    }
+
+    .spec-detail-align {
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .flex-event-info {
+        display: flex;
+    }
+
+    .spec-info-header-marg  {
+        margin-top: 0;
+    }
+
+    .event-spec-info {
+        display: block;
+        margin-left: 0;
+    }
+
+    .flexbox > * {
+        flex: auto;
+    }
+
+    .event-spec-info .plan-trip-butt  {
+        flex: 100%;
+    }
+
+    .plan-trip-butt {
+        margin-top: 40px;
+    }
+
+    .event-spec-info-txt-space {
+        margin-left: 0;
+    }
+
+    .large-info-txt-marg {
+        margin-left: 10px;
+    }
+
+    .large-info-txt-marg h2 {
+        text-align: left;
+    }
+}
+

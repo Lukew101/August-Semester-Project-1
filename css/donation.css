@@ -3,7 +3,7 @@
 }
 
 .top-main-img::after {
-    height: 1750px;
+    height: 1850px;
     top: 560px;
 }
 
@@ -14,7 +14,6 @@ label {
 .donation-centre {
     text-align: center;
     display: inline-block;
-    justify-content: center;
 }
 
 .donation-form .form-grid {
@@ -28,14 +27,11 @@ label {
 
 .donation-form .form-grid input {
     max-width: 280px;
+    margin-bottom: 5px;
 }
 
 .donation-form .form-grid > * {
     margin: 5px 0 0 5px;
-}
-
-.donation-form .form-grid input {
-    margin-bottom: 5px;
 }
 
 .donation-form .form-grid h3 {
@@ -44,10 +40,47 @@ label {
 
 .donation-form {
     background: lightgray;
-    min-width: 300px;
+    width: 320px;
 }
 
 .submit-donation {
     padding: 10px 0 15px 0;
     text-align: center;
+}
+
+/* After donation page */
+.after-donation-main .top-main-img::after {
+    height: 2150px;
+}
+
+.after-donation-main h3 {
+    margin-top: 0;
+}
+
+.after-donation-main h2 {
+    text-transform: uppercase;
+}
+
+@media (min-width: 1000px) {
+    .top-main-img::after {
+        height: 1100px;
+    }
+
+    .after-donation-main .top-main-img::after {
+        height: 1250px;
+    } 
+
+    .donation-centre {
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .flex-media-top-marg {
+        margin-top: 0;
+    }
+
+    .flex-right-content h2 {
+        text-align: left;
+    }
 }

@@ -1,5 +1,5 @@
 .visit-main .top-main-img::after {
-    height: 3200px;
+    height: 3500px;
 }
 
 .txt-align-left p {
@@ -22,14 +22,18 @@
     border-top: solid 1px white;
 }
 
+.cta-main-div {
+    margin-top: 20px;
+}
+
 @media (min-width: 1000px) {
+    .visit-main .top-main-img::after {
+        height: 3100px;
+    }
+
     .visit-main .main-div .visit-main-info {
         display: inline-block;
         max-width: 700px;
-    }
-
-    .main-div .top-main {
-        margin-bottom: 100px;
     }
 
     .visit-img-marg {

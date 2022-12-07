@@ -25,26 +25,40 @@
     }
 
     header .logo-div {
-        flex-basis: 100%;
+        flex-basis: auto;
     }
 
     header nav {
-        position: absolute;
-        left: 18%;
+        position: relative;
+        left: 0;
         top: 0;
-        width: 750px;
-        background-color: none;
         border: none;
         height: 60px;
+    }
+
+    header nav ul {
+        margin: 10px 0 0 -10px;
+        
     }
 
     header nav ul li {
         display: inline-block;
         margin-right: 10px;
+
     }
-    
-    header .donate-header {
-        margin-top: 0;
+
+    header .donate-header a {
+        margin: 0 0 0 25px;
+    }
+
+    header .search-bars {
+        display: flex;
+        width: 100%;
+    }
+
+    header .search-bars .nav-bars-menu {
+        flex-basis: 100%;
+        text-align: center;
     }
     
 /* Global main */
@@ -64,6 +78,10 @@
     .top-main > *,
     .txt-img-flex > * {
         flex-basis: 50%;
+    }
+
+    .top-main p {
+        max-width: 530px;
     }
 
     .top-main-txt,
@@ -115,13 +133,25 @@
     .more-events-list img {
         max-width: 60%;
     }
+
+    .flex-box .events-list a p,
+    .flex-box .explore-list a p {
+        margin: 5px 40px;
+    }
+    
+    .large-view-right-content {
+        margin-left: 50px;
+    }
+
+    header li:hover,
+    .img-hover a:hover,
+    footer a i:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
 }
 
 @media (min-width: 1200px) {
-    header nav {
-        left: 25%;
-    }
-
     .top-main-img img {
         max-width: 100%;
     }

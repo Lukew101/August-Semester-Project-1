@@ -11,3 +11,9 @@ h4 {
     font-size: 18px;
     margin-top: 0;
 }
+
+@media (min-width: 1000px) {
+    .top-main-img::after {
+        height: 1050px;
+    }
+}

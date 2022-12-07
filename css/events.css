@@ -6,3 +6,17 @@
     height: 1750px;
     top: 570px;
 }
+
+h2 {
+    font-size: 22px;
+}
+
+@media (min-width: 1000px) {
+    .top-main-img::after {
+        height: 1050px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}

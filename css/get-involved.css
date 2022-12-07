@@ -14,3 +14,17 @@
 .get-inv-spec-img img {
     margin-top: 20px;
 }
+
+@media (min-width: 1000px) {
+    .top-main-img::after {
+        height: 1500px;
+    }
+
+    .txt-img-flex {
+        margin-left: 10px;
+    }
+
+    h2 {
+        text-align: left;
+    }
+}

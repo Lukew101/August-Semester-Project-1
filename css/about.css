@@ -22,17 +22,11 @@
 
 .about-bott-img img {
     max-width: 80%;
-    min-width: none;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 @media (min-width: 1000px) {
-    .wave-background {
-        top: 250px;
-    }
-
     .top-main-img::after {
-        top: 500px;
         height: 750px;
     }
 
