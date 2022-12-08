@@ -31,7 +31,6 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    overflow-x: hidden;
 }
 
 a {
@@ -132,6 +131,7 @@ ol {
 header {
     display: flex;
     position: relative;
+    overflow-x: hidden;
     top: 20px;
     height: 110px;
     width: 100%;
