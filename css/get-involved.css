@@ -9,6 +9,7 @@
 
 .get-inv-nav {
     text-align: left;
+    max-width: 100px;
 }
 
 .get-inv-spec-img img {

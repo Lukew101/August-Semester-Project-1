@@ -144,8 +144,8 @@
     }
 
     header li:hover,
-    .img-hover a:hover,
-    footer a i:hover {
+    .footer-nav p:hover,
+    .hover-transform:hover {
         transform: scale(1.1);
         transition: 0.3s;
     }
