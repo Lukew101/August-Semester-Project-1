@@ -167,11 +167,10 @@ header .logo-div {
 header nav {
     position: absolute;
     left: -250vh;
-    width: 80%;
+    width: 100%;
     background-color: white;
     height: 400px;
     border-top: solid #ECEAEA 1px;
-    border-right: solid #ECEAEA 1px;
 }
 
 header nav a {
