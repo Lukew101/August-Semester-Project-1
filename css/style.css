@@ -131,7 +131,6 @@ ol {
 header {
     display: flex;
     position: relative;
-    overflow-x: hidden;
     top: 20px;
     height: 110px;
     width: 100%;
@@ -232,7 +231,7 @@ header .donate-header a {
     position: absolute;
     width: 100%;
     height: 60px;
-    right: -2500px;
+    right: 3000px;
     background-color: white;
 }
 
