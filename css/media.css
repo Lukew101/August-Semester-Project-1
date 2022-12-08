@@ -158,7 +158,8 @@
 
     header li:hover,
     .footer-nav p:hover,
-    .hover-transform:hover {
+    .hover-transform:hover,
+    .social-med-icons a i:hover {
         transform: scale(1.1);
         transition: 0.3s;
     }
