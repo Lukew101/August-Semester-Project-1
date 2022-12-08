@@ -26,8 +26,8 @@
     margin-left: 10px;
 }
 
-.spec-info-header-marg  {
-    margin-top: 30px;
+.spec-info-header-marg-small  {
+    margin-top: 50px;
 }
 
 .capitalize {
@@ -62,7 +62,7 @@ h2 {
         display: flex;
     }
 
-    .spec-info-header-marg  {
+    .spec-info-header-marg-small  {
         margin-top: 0;
     }
 

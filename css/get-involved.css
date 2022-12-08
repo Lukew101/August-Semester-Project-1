@@ -1,15 +1,15 @@
 .wave-background {
-    top: 370px;
+    top: 390px;
 }
 
 .top-main-img::after {
     height: 2300px;
-    top: 540px;
+    top: 560px;
 }
 
 .get-inv-nav {
     text-align: left;
-    max-width: 100px;
+    max-width: 120px;
 }
 
 .get-inv-spec-img img {

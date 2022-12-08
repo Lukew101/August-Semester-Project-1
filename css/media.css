@@ -28,6 +28,7 @@
         flex-basis: auto;
     }
 
+    #menu-checkbox:checked ~ nav,
     header nav {
         position: relative;
         left: 0;
@@ -38,13 +39,21 @@
 
     header nav ul {
         margin: 10px 0 0 -10px;
-        
+    }
+
+    .nav-color-background:hover {
+        background-color: #3F3082;
+        padding: 8px 8px;
+        border-radius: 25px;
+    }
+
+    .nav-color-background:hover > * {
+        color: white;
     }
 
     header nav ul li {
         display: inline-block;
         margin-right: 10px;
-
     }
 
     header .donate-header a {
@@ -59,6 +68,10 @@
     header .search-bars .nav-bars-menu {
         flex-basis: 100%;
         text-align: center;
+    }
+
+    .search-input {
+        width: 50%;
     }
     
 /* Global main */
