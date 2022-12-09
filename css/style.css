@@ -237,13 +237,13 @@ header .donate-header a {
 }
 
 .search-input {
-    width: 93%;
+    width: 90%;
     position: absolute;
     border: 1px solid lightgray;
     border-radius: 200px;
     height: 42px;
     right: 13px;
-    top: -2px;
+    top: -3px;
 }
 
 #search-checkbox:checked ~ .search-bar-page {
