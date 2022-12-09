@@ -41,7 +41,6 @@ h4 {
 .exhib-spaces-back::before {
     content: '';
     background: white;
-    display: block;
     position: absolute;
     height: 300px;
     width: 100%;
@@ -53,7 +52,6 @@ h4 {
 .explore-list::before {
     content: '';
     background: #3F3082;
-    display: block;
     position: absolute;
     height: 1200px;
     width: 100%;

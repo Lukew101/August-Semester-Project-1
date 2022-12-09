@@ -20,7 +20,7 @@
         display: none;
     }
 
-    .home-remove {
+    .nav-remove {
         display: none;
     }
 
@@ -43,8 +43,8 @@
 
     .nav-color-background:hover {
         background-color: #3F3082;
-        padding: 8px 8px;
-        border-radius: 25px;
+        padding: 6px 8px;
+        border-radius: 50px;
     }
 
     .nav-color-background:hover > * {
@@ -53,7 +53,7 @@
 
     header nav ul li {
         display: inline-block;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     header .donate-header a {
@@ -71,12 +71,13 @@
     }
 
     .search-input {
-        width: 50%;
+        width: 60%;
     }
     
 /* Global main */
     main .main-div {
         max-width: 1200px;
+        margin: 0 20px;
     }
 
     .top-main {
@@ -95,12 +96,6 @@
 
     .top-main p {
         max-width: 530px;
-    }
-
-    .top-main-txt,
-    .exhib-space,
-    .about-learning-ways-txt {
-        margin-left: 10px;
     }
 
     .wave-background {
@@ -156,13 +151,20 @@
         margin-left: 50px;
     }
 
+    header li,
+    .footer-nav p,
+    .hover-transform,
+    .social-med-icons a i {
+        transition: all ease-in-out 200ms;
+    }
+
     header li:hover,
     .footer-nav p:hover,
     .hover-transform:hover,
     .social-med-icons a i:hover {
         transform: scale(1.1);
-        transition: 0.3s;
     }
+
 }
 
 @media (min-width: 1200px) {

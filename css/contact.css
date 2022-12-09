@@ -18,6 +18,7 @@
     background: lightgray;
     color: black;
     margin-bottom: 50px;
+    height: 440px;
 }
 
 .contact-det-flex,
@@ -54,7 +55,6 @@ textarea {
 
 .center-align {
     display: inline-block;
-    justify-content: center;
 }
 
 .contact-form-placement {
@@ -66,6 +66,10 @@ textarea {
     text-align: center;
 }
 
+.cta-main {
+    height: 30px;
+}
+
 .contact-det-flex img {
     width: 70%;
 }
@@ -73,11 +77,6 @@ textarea {
 @media (min-width: 1000px) {
     .top-main-img::after {
         height: 1250px;
-    }
-
-    .submit-form {
-        padding: 10px 0 15px 0;
-        text-align: center;
     }
 
     .contact-det-marg-form{
