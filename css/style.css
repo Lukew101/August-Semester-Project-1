@@ -77,7 +77,7 @@ ol {
     color: white;
 }
 
-.active {
+.active .underline {
     text-decoration: underline;
 }
 
@@ -168,10 +168,10 @@ header nav {
     left: -250vh;
     width: 100%;
     background-color: white;
-    height: 400px;
+    height: 500px;
     top: 70px;
     border-top: solid #ECEAEA 1px;
-    transition: left 0.3s ease-in-out;
+    transition: left 400ms ease-in-out;
 }
 
 header nav a {
@@ -185,8 +185,7 @@ header nav ul li {
 }
 
 header nav li {
-    max-width: 120px;
-    font-weight: bold;
+    max-width: 200px;
 }
 
 header img {
@@ -200,6 +199,15 @@ header .donate-header a {
     color: white;
     margin-top: 15px;
     border-radius: 500px;
+}
+
+.icon-marg i {
+    width: 30px;
+}
+
+.nav-sep-border {
+    border-top: black 1px solid;
+    padding-top: 20px;
 }
 
 #menu-checkbox, .close-menu {
@@ -261,6 +269,10 @@ header .donate-header a {
 #search-checkbox:checked ~ label .close-search{
     display: inline-block;
     position: relative;
+}
+
+.search-logo-motto-flex a {
+    display: none;
 }
 
 /* Global top section main */

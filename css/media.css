@@ -8,10 +8,18 @@
 }
 
 @media (min-width: 800px) {
-/* Footer */
+    .search-input {
+        width: 60%;
+    }
+
+    .search-logo-motto-flex a {
+        display: block;
+    }
+
     footer .main-footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
 }
 
 @media (min-width: 1000px) {
@@ -56,6 +64,10 @@
         margin-right: 20px;
     }
 
+    .icon-remove {
+        display: none;
+    }
+
     header .donate-header a {
         margin: 0 0 0 25px;
     }
@@ -68,10 +80,6 @@
     header .search-bars .nav-bars-menu {
         flex-basis: 100%;
         text-align: center;
-    }
-
-    .search-input {
-        width: 60%;
     }
     
 /* Global main */
