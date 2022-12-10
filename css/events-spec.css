@@ -1,10 +1,10 @@
 .wave-background {
-    top: 450px;
+    top: 520px;
 }
 
 .top-main-img::after {
     height: 1650px;
-    top: 620px;
+    top: 690px;
 }
 
 .event-spec-info {

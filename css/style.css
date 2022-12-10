@@ -344,6 +344,15 @@ form input {
     height: 20px;
 }
 
+.submit-form {
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+.submit-form > * {
+    height: 30px;
+}
+
 /* Same page nav */
 .content-nav-flex {
     display: flex;

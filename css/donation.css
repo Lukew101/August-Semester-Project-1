@@ -41,11 +41,16 @@ label {
 .donation-form {
     background: lightgray;
     width: 320px;
+    height: 720px;
 }
 
-.submit-donation {
+.submit-form {
     padding: 10px 0 15px 0;
     text-align: center;
+}
+
+.submit-form > * {
+    height: 30px;
 }
 
 /* After donation page */
