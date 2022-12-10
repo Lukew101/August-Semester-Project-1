@@ -22,7 +22,7 @@ h1 {
     font-size: 16px;
 }
 
-p, a, label, li {
+p, a, label, li, .recur-option-donation {
     font-family: 'Open Sans', sans-serif;
 }
 

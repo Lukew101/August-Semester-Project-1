@@ -7,7 +7,8 @@
     top: 560px;
 }
 
-label {
+label,
+.recur-option-donation {
     font-size: 14px;
 }
 
@@ -42,15 +43,6 @@ label {
     background: lightgray;
     width: 320px;
     height: 720px;
-}
-
-.submit-form {
-    padding: 10px 0 15px 0;
-    text-align: center;
-}
-
-.submit-form > * {
-    height: 30px;
 }
 
 /* After donation page */
