@@ -51,7 +51,7 @@ h4 {
 
 .explore-list::before {
     content: '';
-    background: #3F3082;
+    background: var(--main-background-color);
     position: absolute;
     height: 1200px;
     width: 100%;

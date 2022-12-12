@@ -50,13 +50,13 @@
     }
 
     .nav-color-background:hover {
-        background-color: #3F3082;
+        background-color: var(--main-background-color);
         padding: 6px 8px;
         border-radius: 50px;
     }
 
     .nav-color-background:hover > * {
-        color: white;
+        color: var(--font-color-on-color);
     }
 
     header nav ul li {
@@ -172,7 +172,6 @@
     .social-med-icons a i:hover {
         transform: scale(1.1);
     }
-
 }
 
 @media (min-width: 1200px) {

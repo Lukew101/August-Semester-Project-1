@@ -1,4 +1,4 @@
-@import "../CSS/Imports/variables.css";
+@import "/css/variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
 
 /* Global */
@@ -6,8 +6,8 @@ html {
     scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4, nav a {
-    font-family: 'Josefin Sans', sans-serif;
+h1,h2,h3,h4,nav a {
+    font-family: var(--header-nav-font);
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 p, a, label, li, .recur-option-donation {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--font-color-on-white);
 }
 
 .line-break {
@@ -59,13 +59,13 @@ ol {
 }
 
 .cta-main {
-    background: #3FA752;
-    color: white;
+    background: var(--cta-main-color);
+    color: var(--font-color-on-color);
     padding: 5px 40px;
     border-radius: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    border: #3FA752;
+    border: var(--cta-main-color);
 }
 
 .top-main-txt a {
@@ -74,10 +74,10 @@ ol {
 
 .white-txt,
 .white-txt a {
-    color: white;
+    color: var(--font-color-on-color);
 }
 
-.active .underline {
+.underline {
     text-decoration: underline;
 }
 
@@ -101,12 +101,12 @@ ol {
 }
 
 .wave-background .shape-fill {
-    fill: #3F3082;
+    fill: var(--main-background-color);
 }
 
 .top-main-img::after {
     content: '';
-    background: #3F3082;
+    background: var(--main-background-color);
     position: absolute;
     height: 1580px;
     width: 100%;
@@ -137,10 +137,10 @@ header {
 
 .main-icon-decoration i {
     font-size: 16px;
-    background-color: #3F3082;
+    background-color: var(--main-background-color);
     border-radius: 500px;
     padding: 13px;
-    color: white;
+    color: var(--font-color-on-color);
     width: 15px;
     text-align: center;
 }
@@ -175,8 +175,12 @@ header nav {
 }
 
 header nav a {
-    color:  black;
+    color: var(--font-color-on-white);
     font-size: 18px;
+}
+
+header nav ul {
+    margin-left: -20px;
 }
 
 header nav ul li {
@@ -195,8 +199,8 @@ header img {
 
 header .donate-header a {
     padding: 8px 12px;
-    background: #3FA752;
-    color: white;
+    background: var(--cta-main-color);
+    color: var(--font-color-on-color);
     margin-top: 15px;
     border-radius: 500px;
 }
@@ -206,7 +210,7 @@ header .donate-header a {
 }
 
 .nav-sep-border {
-    border-top: black 1px solid;
+    border-top: var(--font-color-on-white) 1px solid;
     padding-top: 20px;
 }
 
@@ -305,7 +309,7 @@ p span {
 
 /* Global other sections main */
 .breadcrumb a {
-    color: black;
+    color: var(--font-color-on-white);
 }
 
 .list-split {
@@ -338,7 +342,7 @@ p span {
     border-radius: 20px;
     margin-right: 5px;
     font-size: 12px;
-    color: white;
+    color: var(--font-color-on-color);
 }
 
 .txt-flex .topic-bubb-p {
@@ -374,7 +378,7 @@ form input {
 
 .content-nav-flex ol li a,
 .get-inv-nav li a {
-    color:  black;
+    color: var(--font-color-on-white);
     font-weight: bold;
     font-size: 14px;
 }
@@ -386,9 +390,9 @@ form input {
 
 /* Footer */
 footer {
-    background: #312859;
+    background: var(--footer-card-color);
     display: grid;
-    color: white;
+    color: var(--font-color-on-color);
 }
 
 footer .main-footer {
@@ -416,7 +420,7 @@ footer .social-med-icons i {
 }
 
 footer a {
-    color: white;
+    color: var(--font-color-on-color);
 }
 
 footer .contact-footer i {

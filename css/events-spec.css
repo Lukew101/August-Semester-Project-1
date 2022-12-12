@@ -17,7 +17,7 @@
 }
 
 .event-spec-background {
-    background: #312859;
+    background: var(--footer-card-color);
     display: inline-block;
     width: 280px;
 }
@@ -41,7 +41,6 @@ h2 {
 .underline a {
     text-decoration: underline;
 }
-
 
 @media (min-width: 1000px) {
     .event-spec-background {
@@ -95,4 +94,3 @@ h2 {
         text-align: left;
     }
 }
-
