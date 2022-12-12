@@ -4,7 +4,7 @@
 
 .top-main-img::after {
     height: 1500px;
-    top: 540px;
+    top: 535px;
 }
 
 @media (min-width: 1000px) {
