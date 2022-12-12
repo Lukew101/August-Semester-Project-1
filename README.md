@@ -6,7 +6,7 @@ This is my August semester project with Noroff. The task involves obtaining a br
 
 This is a responsive web page built for my semester project at Noroff (Netlify link below). For this project, I was required to make a design using Figma for both desktop and mobile viewing (Link to prototypes below). This design was based on a case provided (brief below) with a requirement to develop several key pages listed below. Next, using HTML and CSS, I developed the desktop prototype into a functional and responsive web page.
 
-Netlify link: https://dainty-khapse-06003a.netlify.app/
+Netlify link: [https://dainty-khapse-06003a.netlify.app/](https://community-science-museum-lukew.netlify.app/index.html)
 Mobile prototype
 Desktop prototype
 
