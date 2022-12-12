@@ -89,7 +89,7 @@ ol {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    z-index: -100;
+    z-index: -10000;
 }
 
 .wave-background svg {
