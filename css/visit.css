@@ -48,3 +48,9 @@
         max-width: 600px;
     }
 }
+
+@media (min-width: 1250px) {
+    main .main-div {
+        min-width: 1200px;
+    }
+}

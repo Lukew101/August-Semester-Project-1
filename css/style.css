@@ -129,10 +129,15 @@ ol {
 /* Header */
 header {
     display: flex;
-    position: relative;
-    top: 20px;
-    height: 110px;
+    position: sticky;
+    background: white;
+    top: 0;
+    height: 100px;
     width: 100%;
+}
+
+header > * {
+    margin-top: 20px;
 }
 
 .main-icon-decoration i {
@@ -155,7 +160,7 @@ header .logo-div {
 }
 
 .search-bars > * {
-    margin-right: 15px;
+    margin: 5px 15px 0 0;
 }
 
 .search-bar span {
@@ -169,7 +174,7 @@ header nav {
     width: 100%;
     background-color: white;
     height: 500px;
-    top: 70px;
+    top: 100px;
     border-top: solid #ECEAEA 1px;
     transition: left 400ms ease-in-out;
 }
@@ -222,7 +227,7 @@ header .donate-header a {
     display: block;
     position: absolute;
     left: 0;
-    top: 70px;
+    top: 100px;
 }
 
 #menu-checkbox:checked ~ label .open-menu{
@@ -242,9 +247,9 @@ header .donate-header a {
 .search-bar-page {
     position: absolute;
     width: 100%;
-    height: 60px;
+    height: 80px;
     right: 3000px;
-    top: 0px;
+    top: 20px;
     background-color: white;
     transition: right 400ms ease-in-out;
 }
@@ -256,14 +261,14 @@ header .donate-header a {
     border-radius: 200px;
     height: 42px;
     right: 13px;
-    top: -3px;
+    top: 3px;
 }
 
 #search-checkbox:checked ~ .search-bar-page {
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 20px;
 }
 
 #search-checkbox:checked ~ label .open-search{
@@ -310,6 +315,14 @@ p span {
 /* Global other sections main */
 .breadcrumb a {
     color: var(--font-color-on-white);
+}
+
+.breadcrumb {
+    margin-top: -10px;
+}
+
+.breadcrumb p {
+    font-size: 14px;
 }
 
 .list-split {

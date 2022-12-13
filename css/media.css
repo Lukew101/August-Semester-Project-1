@@ -19,11 +19,15 @@
     footer .main-footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
 }
 
 @media (min-width: 1000px) {
 /* Header */
+    header {
+        position: relative;
+        height: 130px;
+    }
+
     header .nav-bars-menu label {
         display: none;
     }
@@ -90,6 +94,10 @@
 
     .top-main {
         margin-bottom: 50px;
+    }
+
+    .top-main-img {
+        margin-top: 15px;
     }
 
     .top-main,
