@@ -23,11 +23,6 @@
 
 @media (min-width: 1000px) {
 /* Header */
-    header {
-        position: relative;
-        height: 130px;
-    }
-
     header .nav-bars-menu label {
         display: none;
     }

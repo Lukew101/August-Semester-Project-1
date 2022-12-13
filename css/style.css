@@ -129,10 +129,10 @@ ol {
 /* Header */
 header {
     display: flex;
-    position: sticky;
+    position: relative;
     background: white;
     top: 0;
-    height: 100px;
+    height: 130px;
     width: 100%;
 }
 

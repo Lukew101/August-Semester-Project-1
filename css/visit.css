@@ -26,6 +26,11 @@
     margin-top: 20px;
 }
 
+.visit-main-info > *::after {
+    content: '';
+    display: block;
+}
+
 @media (min-width: 1000px) {
     .visit-main .top-main-img::after {
         height: 3100px;
