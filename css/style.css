@@ -167,6 +167,10 @@ header .logo-div {
     z-index: 1501;
 }
 
+.label-hider {
+    display: none;
+}
+
 /* Header nav */
 header nav {
     position: absolute;
