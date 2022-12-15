@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,nav a {
+h1,h2,h3,h4,h5, nav a {
     font-family: var(--header-nav-font);
 }
 
@@ -293,6 +293,7 @@ main {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    overflow: hidden;
 }
 
 main .main-div {
@@ -385,6 +386,16 @@ form input {
 
 .submit-form > * {
     height: 30px;
+}
+
+.more-events-list h3,
+.explore-more-list h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.more-list-split h2 {
+    margin-bottom: 50px;
 }
 
 /* Same page nav */
