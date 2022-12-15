@@ -355,11 +355,12 @@ p span {
 }
 
 .topic-bubble {
-    background: #E16B15;
+    background: var(--subject-bubb-colour);
     padding: 2px 10px;
     border-radius: 20px;
     margin-right: 5px;
-    font-size: 12px;
+    font-size: 14px;
+    font-style: italic;
     color: var(--font-color-on-color);
 }
 
