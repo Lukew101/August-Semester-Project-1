@@ -38,6 +38,11 @@ h4 {
     margin-top: 20px;
 }
 
+.exhib-spaces-back p,
+.exhib-spaces-back .exhib-cta {
+    margin-bottom: 20px;
+}
+
 .exhib-spaces-back::before {
     content: '';
     background: white;

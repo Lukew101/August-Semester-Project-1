@@ -12,7 +12,7 @@
         width: 60%;
     }
 
-    .search-logo-motto-flex a {
+    .search-bar-page .logo-div a {
         display: block;
     }
 
@@ -128,7 +128,7 @@
 
     .top-main p,
     .exhib-space p {
-        margin: 0 0 20px 0;
+        margin: 0 0 30px 0;
     }
 
     .txt-img-flex {

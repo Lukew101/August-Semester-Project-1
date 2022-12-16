@@ -42,7 +42,7 @@ label,
 .donation-form {
     background: lightgray;
     width: 320px;
-    height: 720px;
+    height: 750px;
 }
 
 /* After donation page */
@@ -77,7 +77,7 @@ label,
         margin-top: 0;
     }
 
-    .flex-right-content h2 {
+    .flex-right-content {
         text-align: left;
     }
 }
