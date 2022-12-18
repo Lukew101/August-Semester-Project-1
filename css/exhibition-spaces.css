@@ -1,10 +1,10 @@
 .wave-background {
-    top: 420px;
+    top: 470px;
 }
 
 .top-main-img::after {
     height: 1750px;
-    top: 585px;
+    top: 635px;
 }
 
 .exhib-space-main .top-main-img::after {
@@ -30,6 +30,6 @@
     }
 
     .exhib-cta-align {
-        margin: -80px 0 60px 10px;
+        margin: -60px 0 60px 10px;
     }
 }

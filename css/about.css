@@ -22,7 +22,7 @@
 
 .about-bott-img img {
     max-width: 80%;
-    margin: 50px 0;
+    margin: 20px 0 50px 0;
 }
 
 @media (min-width: 1000px) {
@@ -34,7 +34,7 @@
         margin-bottom: 100px;
     }
 
-    .main-div .about-learning-ways-txt h2 {
+    .main-div .about-learning-ways-txt {
         text-align: left;
     }
 }

@@ -23,10 +23,7 @@
 
 @media (min-width: 1000px) {
 /* Header */
-    header .nav-bars-menu label {
-        display: none;
-    }
-
+    header .nav-bars-menu label,
     .nav-remove {
         display: none;
     }

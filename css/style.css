@@ -10,6 +10,10 @@ h1,h2,h3,h4,h5, nav a {
     font-family: var(--header-nav-font);
 }
 
+p, a, label, li, .recur-option-donation {
+    font-family: var(--paragraph-font);
+}
+
 h1 {
     font-size: 26px;
 }
@@ -20,10 +24,6 @@ h1 {
 
 .main-div p {
     font-size: 16px;
-}
-
-p, a, label, li, .recur-option-donation {
-    font-family: var(--paragraph-font);
 }
 
 body {
@@ -81,6 +81,10 @@ ol {
     text-decoration: underline;
 }
 
+p {
+    line-height: 1.6;
+}
+
 /* Background */
 .wave-background {
     position: absolute;
@@ -117,13 +121,13 @@ ol {
 
 .more-list-split::before {
     content: '';
-    background: white;
+    background: var(--seperation-background-color);
     position: absolute;
     height: 800px;
     width: 100%;
     left: 0;
     z-index: -900;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 /* Header */
@@ -318,10 +322,6 @@ p span {
 }
 
 /* Global other sections main */
-.breadcrumb a {
-    color: var(--font-color-on-white);
-}
-
 .breadcrumb {
     margin-top: -10px;
 }
@@ -330,15 +330,13 @@ p span {
     font-size: 14px;
 }
 
-.list-split {
-    margin: 50px 0;
-}
-
+.list-split,
 .more-list-split {
     margin: 50px 0;
 }
 
-.main-div p {
+.main-div p,
+.spec-info-list ul {
     text-align: left;
 }
 
@@ -372,10 +370,6 @@ p span {
     margin: 10px 0 15px 20px;
 }
 
-.spec-info-list ul {
-    text-align: left;
-}
-
 form input {
     height: 20px;
 }
@@ -396,7 +390,7 @@ form input {
 }
 
 .more-list-split h2 {
-    margin-bottom: 50px;
+    margin: 80px 0 50px 0;
 }
 
 /* Same page nav */

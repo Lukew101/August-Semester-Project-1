@@ -45,7 +45,7 @@ h4 {
 
 .exhib-spaces-back::before {
     content: '';
-    background: white;
+    background: var(--seperation-background-color);
     position: absolute;
     height: 300px;
     width: 100%;
