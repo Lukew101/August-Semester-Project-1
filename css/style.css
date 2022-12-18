@@ -270,7 +270,7 @@ header .donate-header a {
     border-radius: 200px;
     height: 42px;
     right: 13px;
-    top: 3px;
+    top: 2px;
 }
 
 #search-checkbox:checked ~ .search-bar-page {
