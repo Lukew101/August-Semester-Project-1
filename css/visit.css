@@ -2,7 +2,8 @@
     height: 3500px;
 }
 
-.txt-align-left p {
+.txt-align-left p,
+ol {
     text-align: left;
 }
 
