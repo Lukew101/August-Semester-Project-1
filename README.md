@@ -33,4 +33,5 @@ https://github.com/Lukew101/August-Semester-Project-1.git
 3. Run the live server from the `index.html` file
 
 ## Contact
+Please use the following to contact me:
 [My LinkedIn page](https://www.linkedin.com/in/luke-williams-b693421b6/)
