@@ -2,11 +2,11 @@
 
 ![image](https://github.com/Lukew101/August-Semester-Project-1/raw/main/assets/community-science-museum-homepage.png)
 
-This is a project I built for a for a course assignment with Noroff. The task involved obtaining a brief, designing and creating a responsive website using HTML and CSS.
+This is a project I built for a for a semester project at Noroff. The task required us to design and create a responsive website based on the brief.
 
 ## Description
 
-This responsive website was developed as part of a semester project at Noroff, designed to serve the Community Science Museum. The primary purpose of the site is to provide comprehensive information about the museum, while also appealing to its target audience of children and their parents.
+This responsive website was built to serve a mock Community Science Museum. The primary purpose of the site is to provide comprehensive information about the museum, while also appealing to its target audience of children and their parents.
 
 ### Features
 - Intuitive and easy-to-use navigation ensures that users of all ages can explore the site effortlessly.
